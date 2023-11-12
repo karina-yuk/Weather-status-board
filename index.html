@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
-
-    <script src="./assets/js/script.js"></script>
+    <header>
+        <h1>How's the Weather?</h1>
+    </header>
+    <main>
+        <div class="search-box">
+            <div class="search">
+                <h1>Search for a City:</h1>
+                <input id="enterCity" type="text" placeholder="Enter a city" required>
+                <button type="button" class="search-btn">Search</button>
+                <button type="button" class="clear-btn">Clear</button>
+                </div>
+            <div class="search-history"></div>
+       <script src="./assets/js/script.js"></script>
 </body>
 </html>
