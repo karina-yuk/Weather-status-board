@@ -15,13 +15,21 @@
     </header>
     <main>
         <div class="search-box">
-            <div class="search">
+            <section class="search">
                 <h1>Search for a City:</h1>
                 <input id="enterCity" type="text" placeholder="Enter a city" required>
                 <button type="button" class="search-btn">Search</button>
                 <button type="button" class="clear-btn">Clear</button>
-                </div>
-            <div class="search-history"></div>
+            </section>
+            <section class="search-history"></section>
+            <div class="weather-box">
+            <div class="current-weather">
+            <div class="date">
+            <h1 id="city"><span class="main-img"></span></h1>
+            <h2>Temperature: <span id="temp"></span></h2>
+            <h2>Wind: <span id="wind"></span></h2>
+            <h2>Humidity: <span id="humidity"></span></h2>
+        </div>
        <script src="./assets/js/script.js"></script>
 </body>
 </html>
