@@ -4,7 +4,7 @@
 }
 
 header {
-  font-family: "Jost", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #4777ae;
   color: white;
   width: 100%;
@@ -74,24 +74,22 @@ button:hover {
 }
 
 #city {
-  font-family: "Jost", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0px 15px 15px 15px;
 }
 
 h3 {
-  font-family: "Jost", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
 }
 
 .future-weather {
   display: flex;
   justify-content: space-around;
-  
 }
 
 .future-weather-card {
- 
-  width: 15%;
+  width: 18%;
   padding: 5px;
   height: 350px;
   border-radius: 6px;
@@ -99,7 +97,7 @@ h3 {
 }
 
 h3 {
-  font-family: "Jost", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 15px;
   margin-bottom: 20px;
 }
@@ -120,8 +118,8 @@ img {
 }
 
 h4 {
-  font-family: "Jost", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 10px 0px 0px 0px;
   color: #4777ae;
-  font-style: italic;
+  font-size: 20px;
 }
