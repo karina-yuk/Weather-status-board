@@ -8,13 +8,13 @@ It retrieves data from the OpenWeather API and presents it in an easy-to-read fo
 ## Sample Application
 
 1. Search for a city and click the search button or click on a a City from the history list.
-   <img src="./Images/Search.png">
+   <img src="./images/Search.png">
 
 2. Current time weather of the City selected
-   <img src="./Images/current weather.png">">
+   <img src="./images/current weather.png">">
 
 3. The next 5 days forecast for the City selected.
-   <img src="./Images/5-day forecast.png">">
+   <img src="./images/5-day forecast.png">">
 
 ## Deployment Link
 
