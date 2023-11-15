@@ -11,10 +11,10 @@ It retrieves data from the OpenWeather API and presents it in an easy-to-read fo
    <img src="./images/Search.png">
 
 2. Current weather of the City selected.
-   <img src="./images/Current-weather.png">">
+   <img src="./images/Current-weather.png">
 
 3. The next 5 days forecast for the City selected.
-   <img src="./images/5-days-forecast.png">">
+   <img src="./images/5-days-forecast.png">
 
 ## Deployment Link
 
