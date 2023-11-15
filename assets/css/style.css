@@ -5,11 +5,10 @@
 
 header {
   font-family: "Jost", sans-serif;
-  background-color: #8eb8ce;
-  color: rgb(7, 7, 7);
+  background-color: #4777ae;
+  color: white;
   width: 100%;
   height: 80px;
-
   margin-bottom: 10px;
 }
 
@@ -25,12 +24,13 @@ header h1 {
 .search-box {
   width: 20%;
   padding: 10px;
-  float: left;
 }
 
-.search-box h1 {
+.search-box h1,
+h2 {
   color: black;
-  font-family: "Jost", sans-serif;
+  font-size: 25px;
+  margin: 10px;
 }
 
 input {
@@ -45,25 +45,83 @@ button {
   width: 100%;
   height: 30px;
   margin: 5px 0px 10px 0px;
-  background-color: #87b2c9;
+  background-color: #4777ae;
   border-radius: 6px;
-  color: rgb(11, 11, 11);
+  color: white;
   border: rgb(5, 4, 4);
 }
 
 .weather-box {
   width: 100%;
   margin: 10px;
-  float:left;
 }
 .current-weather {
   width: 100%;
   height: 200px;
   border-color: black;
   border-style: solid 1px;
-  background-color: whitesmoke;
+  background-color: #a7cdf6;
+  padding: 15px 0px;
 }
 
 button:hover {
   cursor: pointer;
+}
+
+.history-city {
+  background-color: #4777ae;
+  margin: 15px 0px 0px 0px;
+}
+
+#city {
+  font-family: "Jost", sans-serif;
+  margin: 0px 15px 15px 15px;
+}
+
+h3 {
+  font-family: "Jost", sans-serif;
+  padding: 10px;
+}
+
+.future-weather {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.future-weather-card {
+ 
+  width: 15%;
+  padding: 5px;
+  height: 350px;
+  border-radius: 6px;
+  background-color: #a7cdf6;
+}
+
+h3 {
+  font-family: "Jost", sans-serif;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.weather-card h3 {
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.city-date {
+  display: inline;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+h4 {
+  font-family: "Jost", sans-serif;
+  margin: 10px 0px 0px 0px;
+  color: #4777ae;
+  font-style: italic;
 }
