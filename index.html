@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Dashboard</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <header>
-        <h1>How's the Weather?</h1>
+      <h1>How's the Weather?</h1>
     </header>
     <main>
-        <div class="search-box">
-            <section class="search">
-                <h1>Search for a City:</h1>
-                <input id="enterCity" type="text" placeholder="Enter a city" required>
-                <button type="button" class="search-btn">Search</button>
-                <button type="button" class="clear-btn">Clear</button>
-            </section>
-            <section class="search-history"></section>
-            <div class="weather-box">
-            <div class="current-weather">
-            <div class="date">
-            <h1 id="city"><span class="main-img"></span></h1>
-            <h2>Temperature: <span id="temp"></span></h2>
-            <h2>Wind: <span id="wind"></span></h2>
-            <h2>Humidity: <span id="humidity"></span></h2>
+      <div class="search-box">
+        <div class="search">
+          <h1>Search for a City:</h1>
+          <input id="enterCity" type="text" placeholder="Enter a city"/>
+          <button type="button" class="search-btn">Search</button>
+          <button type="button" id="clear-btn">Clear</button>
+          <hr />
         </div>
-       <script src="./assets/js/script.js"></script>
-</body>
+        <div class="search-history">
+          <h4>Your History:</h4>
+        </div>
+      </div>
+      <div class="weather-box">
+        <div class="current-weather">
+          <div class="date">
+            <h1 id="city"><span class="main-img"></span></h1>
+          </div>
+          <h3>Temperature: <span id="temperature"></span></h3>
+          <h3>Wind: <span id="wind"></span></h3>
+          <h3>Humidity: <span id="humidity"></span></h3>
+        </div>
+        <h2>5-Day Forecast:</h2>
+        <div class="future-weather">
+          <div class="future-weather-card" id="day-0"></div>
+          <div class="future-weather-card" id="day-1"></div>
+          <div class="future-weather-card" id="day-2"></div>
+          <div class="future-weather-card" id="day-3"></div>
+          <div class="future-weather-card" id="day-4"></div>
+        </div>
+      </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
