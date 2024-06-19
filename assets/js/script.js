@@ -54,7 +54,7 @@ function fetchWeather(geoAPI) {
 
           $(`#city`).text(`${city} (${dayjs().format("M/D/YYYY")})`);
           $(`.main-img`).append(weatherIcon);
-          $(`#temperature`).text(`${temperature} ºC`);
+          $(`#temperature`).text(`${temperature} ºF`);
           $(`#wind`).text(`${wind} MPH`);
           $(`#humidity`).text(`${humidity} %`);
 
@@ -75,7 +75,7 @@ function fetchWeather(geoAPI) {
             // Add temp
             var tempEl = $("<h3></h3>");
             var temperature = weather.list[timeStamp[i]].main.feels_like;
-            tempEl.text(`Temperature: ${temperature} ºC`);
+            tempEl.text(`Temperature: ${temperature} ºF`);
             $(`#day-${i}`).append(tempEl);
 
             // Add Wind
